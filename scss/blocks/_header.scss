@@ -1,0 +1,42 @@
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  img {
+    cursor: pointer;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+
+    color: #000000;
+  }
+
+  button {
+    width: 153px;
+    height: 43px;
+    gap: 0px;
+    border-radius: 25px;
+    border: none;
+    opacity: 0px;
+    background: #000000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
